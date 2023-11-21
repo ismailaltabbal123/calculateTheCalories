@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+* {
+    font-family: 'Cairo', sans-serif;
+}
+
+.main-div {
+    background: #3349d3ad;
+    backdrop-filter: blur(15px);
+}
+
+.text-bluec {
+    color: #000000bd;
+}
+
+.color-b-t {
+    color: #ffffffc9;
+}
+
+.text12:focus-visible {
+    outline: none;
+}
+
+.video-v {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
